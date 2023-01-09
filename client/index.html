@@ -9,13 +9,29 @@
   </head>
   <body>
     <div id="app">
+
+      <div class="sidebar">
+
+        <div class="logo"><h1>My ChatGPT App</h1></div>
+
+        <div class="clear-button">
+          <span>+</span>
+          New-Chat
+        </div> 
+      </div>
+
       <div id="chat_container"></div>
+
       <form>
+
         <textarea name="prompt" cols="1" rows="1" placeholder="Ask Codex..."></textarea>
+
         <button type="submit">
           <img src="assets/send.svg" alt="">
         </button>
+
       </form>
+      
     </div>
     <script type="module" src="/script.js"></script>
   </body>
