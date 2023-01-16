@@ -29,9 +29,22 @@ body {
 }
 
 .logo{
-color: white;
+color: azure;
 margin:15px;
 padding: 10px;
+text-align: center;
+text-decoration:underline ;
+}
+
+ul{
+  text-align: left;
+  color: #dcdcdc;
+  margin: 10px;
+  size: 10px ;
+  padding-left: 20px;
+  font-size: large;
+  word-spacing: 3px;
+  text-rendering: auto;
 }
 
 .clear-button{
@@ -47,6 +60,21 @@ padding: 10px;
 .clear-button:hover{
   background-color: rgba(255,255,255,0.1);
 transition: ease 0.25s all;
+}
+
+hr{
+  margin-top: 10vh;
+  color: #dcdcdc;
+}
+
+.credit{
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  color:#dcdcdc;
+  text-align: center;
+  margin-top: 35vh;
 }
 
 .clear-button span{
@@ -154,8 +182,8 @@ form {
   max-width: 1280px;
   margin-left: 35vw;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
+  box-shadow: #202123;
+  border-radius: 12px;
   background: #40414F;
 
   display: flex;
